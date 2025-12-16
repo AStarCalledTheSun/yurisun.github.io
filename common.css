@@ -1,0 +1,26 @@
+﻿@charset"UTF-8"; /*引用编码规则*/
+
+a[href*="yuri"] {
+    color: red;
+}
+/*意为将在helf中含有yuri元素的元素标记为红色*/
+p {
+    color: blue;
+    font-size: 2em;
+}
+    p::after {
+        content: "（滚蛋）";
+    }
+    .ex{
+        background-color:orange;/*将背景设置成橘色*/
+        border:20px solid yellow;/*将边框的大小设计为20像素，并由黄色填充*/
+        padding:40px;/*将内边距设计为40像素*/
+        margin:80px;/*将外边距设计为80像素*/
+    }
+.float {
+    float: right;
+}
+
+
+
+
