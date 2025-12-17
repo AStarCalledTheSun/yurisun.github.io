@@ -29,9 +29,9 @@ jobs:
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        with:
+        with: ./ceshi.html
           # 根据您的HTML文件位置修改路径
-          path: ceshi.html
+          path:
           # 如果是根目录下的文件
           # 或 path: ./dist  # 如果在dist目录
           # 或 path: ./public  # 如果在public目录
